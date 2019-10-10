@@ -52,7 +52,6 @@ describe('Divide function', () => {
     test('Div 55 / 5.5 equals 10', () => {
         const num1 = 55
         const num2 = 5.5
-
         expect(math.div(num1, num2)).toBe(10)
     })
 

@@ -4,7 +4,7 @@
 import React from 'react'
 import Input from './Input/Input'
 import Button from './Button/Button'
-import './style.scss'
+import './style.css'
 
 const validation = require('../utils/Validation/Check')
 const math = require('../utils/Math/Math')
@@ -87,7 +87,6 @@ export default class App extends React.Component {
 
     calculate() {
       const { stack } = this.state
-      console.table(stack)
       const [num1, operator, num2] = [...stack]
       let result = 0
       this.setState({
