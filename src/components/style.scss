@@ -1,0 +1,30 @@
+$margin-side: 32%;
+
+.numbers {
+    font-size: 80px;
+    font-family: 'Courier';
+}
+
+.divBlack {
+    background-color: black;
+}
+
+.content {
+    background-color: rgba($color: black, $alpha: 0.8);
+    margin-left: $margin-side;
+    margin-right: $margin-side;
+    margin-top: 3%;
+    min-height: 550px;
+    width: 400px;
+}
+
+.letter {
+    color: white;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}

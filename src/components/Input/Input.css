@@ -1,0 +1,26 @@
+
+.inputWidth {
+    width: 100%;
+    background-color: transparent;
+}
+
+.flexColumnInput {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.heightInput {
+    min-height: 150px;
+}
+
+.flexRowInput {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 10px;
+}
+
+.spaceLetter {
+    letter-spacing: -5px;
+}

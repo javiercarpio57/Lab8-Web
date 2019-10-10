@@ -1,0 +1,48 @@
+
+.boxSizing {
+    box-sizing: border-box;
+}
+
+.buttonSize {
+    height: 90px;
+    width: 100px;
+}
+
+.buttonSize2 {
+    height: 90px;
+    width: 200px;
+}
+
+.buttonStyle {
+    outline: none;
+    transition: opacity .2s ease-out;
+}
+
+.buttonNumber {
+    font-size: 32px;
+    font-family: 'Courier';
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+button:active {
+    opacity: 0.8;
+}
+
+.orange {
+    background-color: rgb(249, 132, 16);
+    border: 1px solid rgba(206, 109, 13, 0.7);
+    color: white;
+}
+
+.lightGray {
+    background-color: rgb(199, 199, 199);
+    border: 1px solid rgba(155, 155, 155, 0.7);
+}
+
+.darkGray {
+    background-color: rgb(175, 176, 181);
+    border: 1px solid rgba(112, 112, 112, 0.7);
+}
